@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom"; 
 import View from "../Components/View";
 import backgroundImg from "../assets/th.jpg";
-import Add from "../components/Add";
+import Add from "../Components/Add";
 
 
 function Home() {
