@@ -7,10 +7,10 @@ import Add from "../Components/Add";
 
 function Home() {
   const [addVideoResponse, setAddVideoRsponse] = useState("");
-  const navigate = useNavigate(); // useNavigate for programmatic navigation
+  const navigate = useNavigate(); 
 
   const handleLogout = () => {
-    // Clear user authentication data
+    
     localStorage.removeItem("authToken"); 
     sessionStorage.clear();
 
